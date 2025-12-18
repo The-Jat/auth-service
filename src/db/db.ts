@@ -6,6 +6,3 @@ dotenv.config(); // <--- make sure this is here
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL, // must be defined
 });
-
-// export const db = drizzle(pool);
-
